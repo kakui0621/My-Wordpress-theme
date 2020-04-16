@@ -1,0 +1,166 @@
+    /*
+Theme Name: oreno thema
+Theme URI: 
+Author: kakui
+Author URI: 
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E7E6E6;
+}
+
+a {
+    color: #9B9A9A;
+}
+
+.current-cat a,
+.current-menu-item a,
+a:hover {
+    color: #cdcdcd;
+}
+
+p {
+    margin: 1em;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.l-header {
+    height: 150px;
+    padding: 0 5em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #2796DD;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.l-header h1 {
+    margin: 0;
+    line-height: 150px;
+    color: #F0F0F0;
+}
+
+.l-header .header-widget {
+    align-self: flex-end;
+}
+
+.l-header .header-widget ul {
+    display: flex;
+    padding: 0;
+    margin: 2em 0;
+}
+
+.l-header .header-widget ul li {
+    list-style: none;
+    margin: 0 1em;
+}
+
+.l-header a {
+    color: #cdcdcd;
+}
+
+.l-header .current-cat a,
+.l-header .current-menu-item a,
+.l-header a:hover {
+    color: #9B9A9A;
+}
+
+.l-footer {
+    height: 100px;
+    line-height: 100px;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    background-color: #797979;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: #cdcdcd;
+}
+
+.l-footer .footer-widget ul {
+    display: flex;
+    padding: 0;
+}
+
+.l-footer .footer-widget ul li {
+    list-style: none;
+    margin: 0 1em;
+}
+
+.is-content-header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.is-content-header h2 {
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.l-sidebar {
+    margin-top: 2em;
+}
+
+.l-sidebar .widget {
+    margin: 2em 0;
+}
+
+.is-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.is-posts-container .l-post {
+    flex: 0 0 33.33%;
+}
+
+.is-posts-container .l-post .post-box {
+    margin: .5em;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: #F5F5F6;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.is-posts-container .l-post .post-box:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.is-posts-container .l-post .post-box .post-thumbnail-img {
+    width: 100%;
+    height: auto;
+}
+
+.is-posts-container .l-post .post-box .post-excerpt p {
+    height: 5em;
+}
+
+.btn-primary {
+    background-color: #1BC7FC;
+    border-color: transparent;
+}
